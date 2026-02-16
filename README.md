@@ -136,5 +136,12 @@ The application reads backend API base URL from config.py.
 * Database: MySQL
 * Deployment: AWS EC2 + Nginx + Gunicorn
 
+### 🔗 Related Repository
+
+This Streamlit frontend communicates with the backend API:
+
+Backend:https:[fastapi-rbac-auth-api](//github.com/Sridhar990/fastapi-rbac-auth-api)
+
+
 
 
