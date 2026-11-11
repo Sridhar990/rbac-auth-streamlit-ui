@@ -1,7 +1,7 @@
 import requests
 from config import BASE_URL
 
-
+# login fun
 def login_user(email: str, password: str):
     url = f"{BASE_URL}/auth/login"
 

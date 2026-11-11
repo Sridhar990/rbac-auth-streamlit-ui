@@ -12,7 +12,7 @@ st.markdown("""
 
 st.title("Login")
 
-# If already logged in → go to dashboard
+# If already logged in go to dashboard
 if "access_token" in st.session_state and st.session_state.access_token:
     st.switch_page("pages/dashboard.py")
 
